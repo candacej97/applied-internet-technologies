@@ -38,7 +38,7 @@ This assignment will cover storing and retrieving data in a database and in an i
 git clone <GIT REPO URL>
 cd <GIT REPO NAME>/sound-app
 npm install
-node start
+npm start
 ```
 
 **NOTE**: Make sure to set up a MongoDB instance

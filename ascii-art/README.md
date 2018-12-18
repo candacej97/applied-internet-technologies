@@ -27,7 +27,7 @@ a site the collects and displays a sketchbook of ascii art. In this homework you
 git clone <GIT REPO URL>
 cd <GIT REPO NAME>/ascii-art
 npm install
-node src/app.js
+npm start
 ```
 
 * go to your browser at type in `localhost:3000`

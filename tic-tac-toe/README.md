@@ -42,12 +42,12 @@ npm install
 
 ### To play TIC TAC TOE in regular gameplay:
 ```
-node src/game.js
+npm start
 ```
 
 ### To play TIC TAC TOE with scripted moves:
 ```
-node src/game.js <SCRIPTED MOVES AS A STRING OF TWO ARRAYS>
+npm start <SCRIPTED MOVES AS A STRING OF TWO ARRAYS>
 ```
 
 _The third argument configures the first few moves of the game for the computer and the player respectfully. An example command would be:_ `node src/game.js "[[[0,0],[0,1],[0,2]], [[1,0],[1,1]]]"`

@@ -31,7 +31,7 @@ You can only use the following two modules for this assignment →
 git clone <GIT REPO URL>
 cd <GIT REPO NAME>/simple-app
 npm install
-node start
+npm start
 ```
 
 go to your browser at type in `localhost:3000`
