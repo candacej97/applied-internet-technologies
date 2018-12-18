@@ -1,0 +1,77 @@
+
+body {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+    color: white;
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+    width: 50vw;
+    bottom: 0;
+    right: 0;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+table {
+    margin: 0;
+    padding: 5%;
+    padding-top: 0;
+    display: inline-table;
+    width: -webkit-fill-available;
+}
+
+table td {
+    list-style: none;
+    border: 1px solid grey;
+    margin: 5%;
+    padding: 1%;
+    width: fit-content;
+}
+
+a, a:visited, a:active {
+    color: #607d8b;
+    text-decoration: none;
+}
+
+h1, a:hover, a:focus {
+    color: #3f51b5;
+}
+
+form.add-sound {
+    margin: 5%;
+}
+
+form.add-sound input[type="submit"] {
+    width: 15vw;
+    color: #3F51B5;
+    background-color: #9E9E9E;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.add-sound input, form.add-sound textarea {
+    display: -webkit-box;
+    width: 35vw;
+    margin: 1% auto;
+    height: 4vh;
+}
+
+footer {
+    display: inline-flex;
+    margin-top: 10vh;
+}
+
+footer a {
+    width: fit-content;
+    font-size: 1rem;
+    padding: 0 1vw;
+}
