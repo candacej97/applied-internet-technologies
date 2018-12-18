@@ -29,7 +29,7 @@ You can only use the following two modules for this assignment →
 
 ```
 git clone <GIT REPO URL>
-cd <GIT REPO NAME>/candacej97-homework03
+cd <GIT REPO NAME>/simple-app
 npm install
 node start
 ```

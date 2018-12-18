@@ -25,7 +25,7 @@ a site the collects and displays a sketchbook of ascii art. In this homework you
 
 ```
 git clone <GIT REPO URL>
-cd <GIT REPO NAME>/candacej97-homework04
+cd <GIT REPO NAME>/ascii-art
 npm install
 node src/app.js
 ```
