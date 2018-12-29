@@ -1,0 +1,22 @@
+.shown {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.emoji {
+    display: inline;
+}
+
+.emoji.clicked {
+    background-color: grey;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 100;
+    color: wheat;
+    background-color: crimson;
+}
